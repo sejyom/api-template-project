@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
-import static org.springframework.validation.BindingResultUtils.getBindingResult;
 
 @Slf4j
 @RestControllerAdvice
